@@ -1,4 +1,6 @@
-const ModuleThree = () => {
+import Link from "next/link";
+
+const ExperienceModule = () => {
   return (
     <section id="three" class="wrapper spotlight style3">
       <div class="inner">
@@ -15,13 +17,13 @@ const ModuleThree = () => {
             helped me become more of a interdisciplinay engineer adn therefore
             deliver better results depending of each teams needs.
           </p>
-          <a href="workExperience.html" class="special">
-            Learn more
-          </a>
+          <Link href="/workExperience">
+            <a class="special">Learn more</a>
+          </Link>
         </div>
       </div>
     </section>
   );
 };
 
-export default ModuleThree;
+export default ExperienceModule;
