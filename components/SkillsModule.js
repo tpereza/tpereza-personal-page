@@ -1,4 +1,6 @@
-const ModuleTwo = () => {
+import Link from "next/link";
+
+const SkillsModule = () => {
   return (
     <section id="two" class="wrapper alt spotlight style2">
       <div class="inner">
@@ -14,13 +16,13 @@ const ModuleTwo = () => {
             problem, therefore I work to improve them (with new challenges) and
             always learn new ones.
           </p>
-          <a href="/skills" class="special">
-            Learn more
-          </a>
+          <Link href="/skills">
+            <a class="special">Learn more</a>
+          </Link>
         </div>
       </div>
     </section>
   );
 };
 
-export default ModuleTwo;
+export default SkillsModule;
