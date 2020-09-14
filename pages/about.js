@@ -1,4 +1,4 @@
-import Layout from "../components/Layout";
+import Layout from '../components/Layout';
 
 const About = () => {
   return (
@@ -6,71 +6,77 @@ const About = () => {
       {/* Especifico de About */}
       <section id="wrapper">
         <header>
-          <div class="inner">
+          <div className="inner">
             <h2>About Me</h2>
             <p>Get to know more about Me</p>
           </div>
         </header>
 
-        <div class="wrapper">
-          <div class="inner">
-            <h3 class="major">Lorem ipsum dolor</h3>
+        <div className="wrapper">
+          <div className="inner">
+            <h3 className="major">Education</h3>
             <p>
-              Morbi mattis mi consectetur tortor elementum, varius pellentesque
-              velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac
-              scelerisque ipsum tempor. Duis vulputate ex et ex tincidunt, quis
-              lacinia velit aliquet. Duis non efficitur nisi, id malesuada
-              justo. Maecenas sagittis felis ac sagittis semper. Curabitur purus
-              leo donec vel dolor at arcu tincidunt bibendum. Interdum et
-              malesuada fames ac ante ipsum primis in faucibus. Fusce ut aliquet
-              justo. Donec id neque ipsum. Integer eget ultricies odio. Nam vel
-              ex a orci fringilla tincidunt. Aliquam eleifend ligula non velit
-              accumsan cursus. Etiam ut gravida sapien.
+              As told in my introduction I'm an student at the National University of Colombia, in
+              the Computer Engineering degree. I started my education on 2016 when I was 16 years
+              old, my goal when I choose to study this degree was to develop videogames. However, as
+              the time passed by the Data analysis and Back-end develop became some of my prefered
+              areas to work on. Finished secondary school at the New England School, in which I
+              studied from first grade until I graduated. Education as you can notice has always
+              been part of my life, and I'm always looking for online courses and tutorials to keep
+              fresh my knowledge on tecnology matters.
             </p>
 
+            <h3 className="major">Life & Hobbies</h3>
             <p>
-              Vestibulum ultrices risus velit, sit amet blandit massa auctor sit
-              amet. Sed eu lectus sem. Phasellus in odio at ipsum porttitor
-              mollis id vel diam. Praesent sit amet posuere risus, eu faucibus
-              lectus. Vivamus ex ligula, tempus pulvinar ipsum in, auctor porta
-              quam. Proin nec commodo, vel scelerisque nisi scelerisque.
-              Suspendisse id quam vel tortor tincidunt suscipit. Nullam auctor
-              orci eu dolor consectetur, interdum ullamcorper ante tincidunt.
-              Mauris felis nec felis elementum varius.
+              As a young men I try to keep a balance between work, education, family and being
+              social. For me having free time to spent with friends or family is useful to keep my
+              mind clear and performing better in other matters such as my developer work or at the
+              university. Some of the hobbies I have are listed below, with a small description,
+              each one to a separate information/blog page in which I discuss more about those
+              things.
             </p>
 
-            <h3 class="major">Vitae phasellus</h3>
-            <p>
-              Cras mattis ante fermentum, malesuada neque vitae, eleifend erat.
-              Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis
-              egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus
-              in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.
-            </p>
-
-            <section class="features">
+            <section className="features">
               <article>
-                <a href="#" class="image">
+                <a href="#" className="image">
                   <img src="images/pic04.jpg" alt="" />
                 </a>
-                <h3 class="major">Sed feugiat lorem</h3>
+                <h3 className="major">Videogames</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                  nulla dignissim dapibus ultrices.
+                  Playing and also watching videogames are key for me. My goal still is to develop
+                  videogames and staying in touch with the indsutry via videos or forums, therefore,
+                  in this blog I try to give my opinion and also discuss about what other think.
                 </p>
-                <a href="#" class="special">
+                <a href="#" className="special">
                   Learn more
                 </a>
               </article>
               <article>
-                <a href="#" class="image">
+                <a href="#" className="image">
                   <img src="images/pic05.jpg" alt="" />
                 </a>
-                <h3 class="major">Nisl placerat</h3>
+                <h3 className="major">Entrepreneurship</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                  nulla dignissim dapibus ultrices.
+                  Trying to come up with ideas and starting to develop them is kind of a hobbie.
+                  Most of my ideas I work them with a couple of friends of mine. If you want to take
+                  a look to what we have done, and what ideas I have feel free to.
                 </p>
-                <a href="#" class="special">
+                <a href="#" className="special">
+                  Learn more
+                </a>
+              </article>
+              <article>
+                <a href="#" className="image">
+                  <img src="images/pic05.jpg" alt="" />
+                </a>
+                <h3 className="major">Hackaton</h3>
+                <p>
+                  Working fast and coming out with solutions is one of the skills I have worked on
+                  with the hackatons. Been there with friends from the university and came out with
+                  some clever ideas, most of them we can't finish in the short time the hackatons
+                  have, but nevertheless the time spent there teach great things.
+                </p>
+                <a href="#" className="special">
                   Learn more
                 </a>
               </article>
