@@ -1,11 +1,11 @@
-import Link from "next/link";
+import Link from 'next/link';
 
 const Navigation = () => {
   return (
     <nav id="menu">
-      <div class="inner">
+      <div className="inner">
         <h2>Menu</h2>
-        <ul class="links">
+        <ul className="links">
           <li>
             <Link href="/">
               <a>Home</a>
@@ -30,7 +30,7 @@ const Navigation = () => {
             <a href="elements.html">Projects</a>
           </li>
         </ul>
-        <a href="#" class="close">
+        <a href="#" className="close">
           Close
         </a>
       </div>
