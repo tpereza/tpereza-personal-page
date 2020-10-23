@@ -1,4 +1,3 @@
-import Navigation from "../components/navigation";
 import AboutMeModule from "../components/AboutMeModule";
 import SkillsModule from "../components/SkillsModule";
 import ExperienceModule from "../components/ExperienceModule";
@@ -8,7 +7,6 @@ import Layout from "../components/Layout";
 const Index = () => {
   return (
     <Layout props={false}>
-      {/* Banner */}
       <section id="banner">
         <div className="inner">
           <div className="logo">

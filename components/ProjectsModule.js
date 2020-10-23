@@ -14,35 +14,43 @@ const Projects = () => {
         </p>
         <section className="features">
           <article>
-            <a href="#" className="image">
-              <img src="images/pic04.jpg" alt="" />
+          <Link href="/projects#aventurate">
+            <a className="image">
+              <img src="images/aventurateLogo.png" alt="" />
             </a>
+          </Link>
             <h3 className="major">Aventurate</h3>
             <p>
               This is a project made in the University with the purpose of
               serving as a hotel booking app, specially for small and medium
               business in towns of Colombia.
             </p>
-            <a href="#" className="special">
-              Learn more
-            </a>
+            <Link href="/projects#aventurate">
+              <a className="special">
+                Learn more
+              </a>
+            </Link>
           </article>
           <article>
-            <a href="#" className="image">
-              <img src="images/pic05.jpg" alt="" />
-            </a>
+            <Link href="/projects#mercampo">
+              <a className="image">
+                <img src="images/mercampoLogo.png" alt="" />
+              </a>
+            </Link>
             <h3 className="major">Mercampo</h3>
             <p>
               This is a project made for a Hackaton, focused on the creation of
               a marketplace for Colombian farmers.
             </p>
-            <a href="#" className="special">
-              Learn more
-            </a>
+            <Link href="/projects#mercampo">
+              <a className="special">
+                Learn more
+              </a>
+            </Link>
           </article>
           <article>
             <a href="#" className="image">
-              <img src="images/pic06.jpg" alt="" />
+              <img src="images/pinartLogo.png" alt=""  style={{ width: '300px', margin: '0 auto' }}/>
             </a>
             <h3 className="major">Pinart</h3>
             <p>
@@ -50,9 +58,11 @@ const Projects = () => {
               similar to Pinterest and with a lot of languages and frameworks
               involved.
             </p>
-            <a href="#" className="special">
-              Learn more
-            </a>
+            <Link href="/projects#pinart">
+              <a className="special">
+                Learn more
+              </a>
+            </Link>
           </article>
           <article>
             <a href="#" className="image">

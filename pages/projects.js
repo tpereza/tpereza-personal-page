@@ -13,7 +13,7 @@ const Projects = () => {
 
         <div className="wrapper">
           <div className="inner">
-            <h3 className="major">Lorem ipsum dolor</h3>
+          <h3 id="aventurate" className="major">Aventurate App</h3>
             <p>
               Morbi mattis mi consectetur tortor elementum, varius pellentesque velit convallis.
               Aenean tincidunt lectus auctor mauris maximus, ac scelerisque ipsum tempor. Duis
@@ -25,13 +25,40 @@ const Projects = () => {
               accumsan cursus. Etiam ut gravida sapien.
             </p>
 
+            <h3 id="mercampo" className="major">Mercampo App</h3>
             <p>
-              Vestibulum ultrices risus velit, sit amet blandit massa auctor sit amet. Sed eu lectus
-              sem. Phasellus in odio at ipsum porttitor mollis id vel diam. Praesent sit amet
-              posuere risus, eu faucibus lectus. Vivamus ex ligula, tempus pulvinar ipsum in, auctor
-              porta quam. Proin nec commodo, vel scelerisque nisi scelerisque. Suspendisse id quam
-              vel tortor tincidunt suscipit. Nullam auctor orci eu dolor consectetur, interdum
-              ullamcorper ante tincidunt. Mauris felis nec felis elementum varius.
+              Morbi mattis mi consectetur tortor elementum, varius pellentesque velit convallis.
+              Aenean tincidunt lectus auctor mauris maximus, ac scelerisque ipsum tempor. Duis
+              vulputate ex et ex tincidunt, quis lacinia velit aliquet. Duis non efficitur nisi, id
+              malesuada justo. Maecenas sagittis felis ac sagittis semper. Curabitur purus leo donec
+              vel dolor at arcu tincidunt bibendum. Interdum et malesuada fames ac ante ipsum primis
+              in faucibus. Fusce ut aliquet justo. Donec id neque ipsum. Integer eget ultricies
+              odio. Nam vel ex a orci fringilla tincidunt. Aliquam eleifend ligula non velit
+              accumsan cursus. Etiam ut gravida sapien.
+            </p>
+
+            <h3 id="pinart" className="major">Pinart App</h3>
+            <p>
+              Morbi mattis mi consectetur tortor elementum, varius pellentesque velit convallis.
+              Aenean tincidunt lectus auctor mauris maximus, ac scelerisque ipsum tempor. Duis
+              vulputate ex et ex tincidunt, quis lacinia velit aliquet. Duis non efficitur nisi, id
+              malesuada justo. Maecenas sagittis felis ac sagittis semper. Curabitur purus leo donec
+              vel dolor at arcu tincidunt bibendum. Interdum et malesuada fames ac ante ipsum primis
+              in faucibus. Fusce ut aliquet justo. Donec id neque ipsum. Integer eget ultricies
+              odio. Nam vel ex a orci fringilla tincidunt. Aliquam eleifend ligula non velit
+              accumsan cursus. Etiam ut gravida sapien.
+            </p>
+
+            <h3 id="booklick" className="major">Booklick S.A.</h3>
+            <p>
+              Morbi mattis mi consectetur tortor elementum, varius pellentesque velit convallis.
+              Aenean tincidunt lectus auctor mauris maximus, ac scelerisque ipsum tempor. Duis
+              vulputate ex et ex tincidunt, quis lacinia velit aliquet. Duis non efficitur nisi, id
+              malesuada justo. Maecenas sagittis felis ac sagittis semper. Curabitur purus leo donec
+              vel dolor at arcu tincidunt bibendum. Interdum et malesuada fames ac ante ipsum primis
+              in faucibus. Fusce ut aliquet justo. Donec id neque ipsum. Integer eget ultricies
+              odio. Nam vel ex a orci fringilla tincidunt. Aliquam eleifend ligula non velit
+              accumsan cursus. Etiam ut gravida sapien.
             </p>
 
             <h3 className="major">Vitae phasellus</h3>
@@ -47,7 +74,7 @@ const Projects = () => {
                 <a href="#" className="image">
                   <img src="images/pic04.jpg" alt="" />
                 </a>
-                <h3 className="major">Sed feugiat lorem</h3>
+                <h3 id='test' className="major">Sed feugiat lorem</h3>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim
                   dapibus ultrices.
