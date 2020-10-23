@@ -1,78 +1,84 @@
-import Layout from "../components/Layout";
+import Layout from '../components/Layout';
+import Link from 'next/link';
 
 const Skills = () => {
   return (
     <Layout>
       <section id="wrapper">
         <header>
-          <div class="inner">
+          <div className="inner">
             <h2>Skills & Abilities</h2>
-            <p>
-              More about my skills, abilities and how I can help a team be
-              better
-            </p>
+            <p>More about my skills, abilities and how I can help a team be better</p>
           </div>
         </header>
 
-        <div class="wrapper">
-          <div class="inner">
-            <h3 class="major">Lorem ipsum dolor</h3>
+        <div className="wrapper">
+          <div className="inner">
+            <h3 className="major">Skills</h3>
             <p>
-              Morbi mattis mi consectetur tortor elementum, varius pellentesque
-              velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac
-              scelerisque ipsum tempor. Duis vulputate ex et ex tincidunt, quis
-              lacinia velit aliquet. Duis non efficitur nisi, id malesuada
-              justo. Maecenas sagittis felis ac sagittis semper. Curabitur purus
-              leo donec vel dolor at arcu tincidunt bibendum. Interdum et
-              malesuada fames ac ante ipsum primis in faucibus. Fusce ut aliquet
-              justo. Donec id neque ipsum. Integer eget ultricies odio. Nam vel
-              ex a orci fringilla tincidunt. Aliquam eleifend ligula non velit
-              accumsan cursus. Etiam ut gravida sapien.
+              My skills can be seen mainly in the "soft skills" categories. For a computer engineer
+              the skill to work side by side with other areas of knowledge is crucial, and in my
+              experience having this set of "soft skills" is really helpful. The list below have a 
+              number of skills that I thing are remarkable and that the people that I have worked
+              with can attest. Nevertheless, as people work with me they can discover more personal
+              skills, such as empathy, tolerance and resilience. Take a look to a brief list of my skills.
             </p>
 
+            <div className="row">
+              <div className="col-12">
+                <ul>
+                  <li> Background in <strong>systems and computer engineering</strong>.</li>
+                  <li> Excellent <strong>communication</strong>, soft skills and <strong>leadership skills</strong>.</li>
+                  <li> Easy to adapt to new environment and always open to <strong>new ideas</strong>.</li>
+                  <li> Experience in different <strong>agile methodologies</strong>, like Scrum or XP, from Scrum Master to team developer.</li>
+                  <li> Attentive to the <strong>needs of the project</strong>, ready to <strong>contribute</strong> with the experience I have earned in other projects.</li>
+                  <li> <strong>Innovative</strong> solutions, using the latest technological tools where possible.</li>
+                  <li> <strong>Organized</strong> and <strong>methodical</strong> in the way of working, always looking to meet expectations.</li>
+                </ul>
+              </div>
+            </div>
+
+            <h3 className="major">Abilities</h3>
             <p>
-              Vestibulum ultrices risus velit, sit amet blandit massa auctor sit
-              amet. Sed eu lectus sem. Phasellus in odio at ipsum porttitor
-              mollis id vel diam. Praesent sit amet posuere risus, eu faucibus
-              lectus. Vivamus ex ligula, tempus pulvinar ipsum in, auctor porta
-              quam. Proin nec commodo, vel scelerisque nisi scelerisque.
-              Suspendisse id quam vel tortor tincidunt suscipit. Nullam auctor
-              orci eu dolor consectetur, interdum ullamcorper ante tincidunt.
-              Mauris felis nec felis elementum varius.
+              My abilities are here defined as the technical abilities that I have acquire throughout my
+              experience. I may include that as a young programmer, the kind of things I do are subject
+              to changes or to improvements while I learn more about new practices and ways of optimizing
+              my code. I tried to quantify my knowledge, but a better way to check yourself what I can do 
+              is to check <Link href="/"><a>my projects</a></Link>.
             </p>
 
-            <h3 class="major">Vitae phasellus</h3>
+            {/* TODO: List of the abilties in different languages*/}
+
+            <h3 className="major">Coding pages</h3>
             <p>
-              Cras mattis ante fermentum, malesuada neque vitae, eleifend erat.
-              Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis
-              egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus
-              in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.
+              I try to be up to date in new technologies, for this to happen I use pages like CodeSignal or
+              Hacker Rank to keep my mind fresh. I might stop using them because of the university or little
+              to no time to practice, but you can be sure that I keep learning either by the university 
+              assignments or by my work of the moment.
             </p>
 
-            <section class="features">
+            <section className="features">
               <article>
-                <a href="#" class="image">
-                  <img src="images/pic04.jpg" alt="" />
+                <a href="https://app.codesignal.com/profile/tom_a33" target='_blank' className="image">
+                  <img src="images/codesignalLogo.jpg" alt="" />
                 </a>
-                <h3 class="major">Sed feugiat lorem</h3>
+                <h3 className="major">CodeSignal</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                  nulla dignissim dapibus ultrices.
+                  Check my CodeSignal profile and review what my practice route has been.
                 </p>
-                <a href="#" class="special">
+                <a href="https://app.codesignal.com/profile/tom_a33" target='_blank' className="special">
                   Learn more
                 </a>
               </article>
               <article>
-                <a href="#" class="image">
-                  <img src="images/pic05.jpg" alt="" />
+                <a href="https://www.hackerrank.com/tpereza" target='_blank' className="image">
+                  <img src="images/hackerrankLogo.png" alt="" />
                 </a>
-                <h3 class="major">Nisl placerat</h3>
+                <h3 className="major">Hacker Rank </h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                  nulla dignissim dapibus ultrices.
+                  Check my Hacker Rank profile and review what my practice route has been.
                 </p>
-                <a href="#" class="special">
+                <a href="https://www.hackerrank.com/tpereza" target='_blank' className="special">
                   Learn more
                 </a>
               </article>

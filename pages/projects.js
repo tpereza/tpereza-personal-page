@@ -1,13 +1,13 @@
 import Layout from '../components/Layout';
 
-const WorkExperience = () => {
+const Projects = () => {
   return (
     <Layout>
       <section id="wrapper">
         <header>
           <div className="inner">
-            <h2>Work Experience</h2>
-            <p>Information about the places I have worked on and what I have done there</p>
+            <h2>Projects</h2>
+            <p>Here is a brief explanation about the projects I have worked on or in which I'm working on</p>
           </div>
         </header>
 
@@ -77,4 +77,4 @@ const WorkExperience = () => {
   );
 };
 
-export default WorkExperience;
+export default Projects;

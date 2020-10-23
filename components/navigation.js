@@ -27,7 +27,7 @@ const Navigation = () => {
             </Link>
           </li>
           <li>
-            <a href="elements.html">Projects</a>
+            <a href="/projects">Projects</a>
           </li>
         </ul>
         <a href="#" className="close">
