@@ -59,26 +59,26 @@ const Skills = () => {
 
             <section className="features">
               <article>
-                <a href="#" className="image">
-                  <img src="images/pic04.jpg" alt="" />
+                <a href="https://app.codesignal.com/profile/tom_a33" target='_blank' className="image">
+                  <img src="images/codesignalLogo.jpg" alt="" />
                 </a>
                 <h3 className="major">CodeSignal</h3>
                 <p>
                   Check my CodeSignal profile and review what my practice route has been.
                 </p>
-                <a href="#" className="special">
+                <a href="https://app.codesignal.com/profile/tom_a33" target='_blank' className="special">
                   Learn more
                 </a>
               </article>
               <article>
-                <a href="#" className="image">
-                  <img src="images/pic05.jpg" alt="" />
+                <a href="https://www.hackerrank.com/tpereza" target='_blank' className="image">
+                  <img src="images/hackerrankLogo.png" alt="" />
                 </a>
                 <h3 className="major">Hacker Rank </h3>
                 <p>
                   Check my Hacker Rank profile and review what my practice route has been.
                 </p>
-                <a href="#" className="special">
+                <a href="https://www.hackerrank.com/tpereza" target='_blank' className="special">
                   Learn more
                 </a>
               </article>
