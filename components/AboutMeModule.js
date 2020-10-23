@@ -2,13 +2,13 @@ import Link from "next/link";
 
 const AboutMeModule = () => {
   return (
-    <section id="one" class="wrapper spotlight style1">
-      <div class="inner">
-        <a href="#" class="image">
+    <section id="one" className="wrapper spotlight style1">
+      <div className="inner">
+        <a href="#" className="image">
           <img src="images/pic01.jpg" alt="" />
         </a>
-        <div class="content">
-          <h2 class="major">About me</h2>
+        <div className="content">
+          <h2 className="major">About me</h2>
           <p>
             I'm Tom Erick Perez a student of the National University of Colombia
             in the degree Computer Engineering, with focus on databases, data
@@ -19,7 +19,7 @@ const AboutMeModule = () => {
             decision-making skills.
           </p>
           <Link href="/about">
-            <a class="special">Learn more</a>
+            <a className="special">Learn more</a>
           </Link>
         </div>
       </div>
