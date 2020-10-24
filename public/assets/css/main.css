@@ -4155,3 +4155,13 @@ input, select, textarea {
 		}
 
 	}
+
+	.wrapper .projectLinks{
+		display: flex;
+		padding-bottom: 20px;
+	}
+
+		.wrapper .projectLinks .special {
+			margin: auto 0;
+			padding-left: 20px;
+		}
