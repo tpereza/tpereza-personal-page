@@ -14,59 +14,75 @@ const Projects = () => {
         </p>
         <section className="features">
           <article>
-            <a href="#" className="image">
-              <img src="images/pic04.jpg" alt="" />
+          <Link href="/projects#aventurate">
+            <a className="image">
+              <img src="images/aventurateLogo.png" alt="" />
             </a>
+          </Link>
             <h3 className="major">Aventurate</h3>
             <p>
               This is a project made in the University with the purpose of
               serving as a hotel booking app, specially for small and medium
               business in towns of Colombia.
             </p>
-            <a href="#" className="special">
-              Learn more
-            </a>
+            <Link href="/projects#aventurate">
+              <a className="special">
+                Learn more
+              </a>
+            </Link>
           </article>
           <article>
-            <a href="#" className="image">
-              <img src="images/pic05.jpg" alt="" />
-            </a>
-            <h3 className="major">Mercampo</h3>
+            <Link href="/projects#d4d">
+              <a className="image">
+                <img src="images/d4dLogo.png" alt="" />
+              </a>
+            </Link>
+            <h3 className="major">Data for Decision</h3>
             <p>
-              This is a project made for a Hackaton, focused on the creation of
-              a marketplace for Colombian farmers.
+              A colombian startup specialized in the data analysis and management of the resources
+              from small to medium financial entities.
             </p>
-            <a href="#" className="special">
-              Learn more
-            </a>
+            <Link href="/projects#d4d">
+              <a className="special">
+                Learn more
+              </a>
+            </Link>
           </article>
           <article>
-            <a href="#" className="image">
-              <img src="images/pic06.jpg" alt="" />
-            </a>
+            <Link href="/projects#pinart">
+              <a href="#" className="image">
+                <img src="images/pinartLogo.png" alt=""  style={{ width: '70%', margin: '0 auto' }}/>
+              </a>
+            </Link>
             <h3 className="major">Pinart</h3>
             <p>
               A Project made at the University with multiple Microservices,
               similar to Pinterest and with a lot of languages and frameworks
               involved.
             </p>
-            <a href="#" className="special">
-              Learn more
-            </a>
+            <Link href="/projects#pinart">
+              <a className="special">
+                Learn more
+              </a>
+            </Link>
           </article>
           <article>
-            <a href="#" className="image">
-              <img src="images/pic07.jpg" alt="" />
-            </a>
+            <Link href="/projects#booklick">
+              <a className="image">
+                <img src="images/booklickLogo.png" alt="" style={{ width: '70%', margin: '0 auto' }} />
+              </a>
+            </Link>
             <h3 className="major">Booklick</h3>
             <p>
               An Start-up in which I work as a Fullstack developer and head of
               the recommendations area. A social Network for not only university
               students but for the knowledge within it.
             </p>
-            <a href="#" className="special">
-              Learn more
-            </a>
+            <Link href="/projects#booklick">
+              <a className="special">
+                Learn more
+              </a>
+            </Link>
           </article>
         </section>
         <ul className="actions">
