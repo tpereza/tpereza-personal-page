@@ -23,7 +23,7 @@ const About = () => {
               areas to work on. Finished secondary school at the New England School, in which I
               studied from first grade until I graduated. Education as you can notice has always
               been part of my life, and I'm always looking for online courses and tutorials to keep
-              fresh my knowledge on tecnology matters.
+              fresh my knowledge on technology matters.
             </p>
 
             <h3 className="major">Life & Hobbies</h3>
